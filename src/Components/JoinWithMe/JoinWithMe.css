@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.joinWithMe_popup_body {
+    margin: 0 200px;
+}
+
+.joinWithMe_popup_body > form > p {
+    padding: 14px 0;
+    flex: 0.5;
+    text-align: left;
+}
+
+.form__name,
+.form__subject {
+    display: flex;
+    padding: 10px 0 !important;
+    width: 350px;
+}
+
+.form__input {
+    flex: 0.5;
+    align-items: center;
+    padding-left: 75px;
+}
+
+.form__input::placeholder,
+.form__input-message::placeholder {
+    font-family: "Alata",sans-serif;
+}
+.form__input-message {
+    padding: 30px 87px !important;
+    position: relative;
+    top: 10px;
+}
+
+.form__input—button {
+    position: relative;
+    top: 25px;
+    border: none;
+    color: white;
+    background-color: #f64c08;
+    padding: 11px 31px;
+    font-size: 14px;
+    left: 144px;
+    font-family: "Alata",sans-serif;
+    cursor: pointer;
+}
